@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main-section{
+    background-color: #F4F4F4;    
+}
+a{
+    text-decoration: none !important;
+}
+.container{
+    max-width: 1150px !important;
+}
+p{
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    text-align: justify;
+}
+
+/* ****************** NavBar ********************* */
+.NavBG{
+    background-color: #D6932C;
+}
+.nav-img{
+    height: 100%;
+}
+.nav-img img{
+    height: 30px;
+}
+.menu-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 32px;
+    border: 1px solid #e1dfdb;
+}
+.nav-item>a:hover{
+    color: rgba(255, 255, 255, .8) !important;
+}
+
+
+/* ****************** SideBar ********************* */
+
+.sidebar-logo{
+    height: 100%;
+}
+.sidebar-logo img{
+    height: 30px;
+}
+.btn-close{
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.Sidebar-nav>a:hover{
+    color: #0390c0 !important;
+}
+.social-icon>a:hover{
+    color: #0390c0 !important;
+}
+
+
+
+/* ******************* Title Pages ********************* */
+
+.page-name{
+    font-size: 50px;
+}
+
+
+/* ******************* Blog Section ********************* */
+.blog-img img{
+    width: 100% !important;
+}
+
+
+/* ******************* Footer Section ********************* */
+
+.footer-main{
+    border-top: 10px solid #2C7FBF;
+}
+.list-unstyled>li>a:hover{
+    color: #0390c0 !important;
+}
+
+/* Media Query */
+
+@media (min-width:0) and (max-width:426px) {
+    .nav-img img,
+    .sidebar-logo img{
+        height: 22px;
+    }
+
+}
+
+/* @media (min-width:426px) and (max-width:768px) {
+     
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+     
+}
+
+
+@media (min-width:1025px) and (max-width:1400px) {
+    
+    
+} */
+ 
